@@ -1,8 +1,0 @@
-ALTER TABLE diagnosis
-ADD COLUMN diagnosis_id SERIAL PRIMARY KEY;
-
-ALTER TABLE symptoms
-ADD COLUMN symptom_id SERIAL PRIMARY KEY;
-
-ALTER TABLE treatment
-ADD COLUMN treatment_id SERIAL PRIMARY KEY;
